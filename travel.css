@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-header{
-  padding: 15px 0 ;
+header {
+  padding: 15px 0;
 }
 .container {
   max-width: 1159px;
@@ -38,7 +38,8 @@ header{
   cursor: pointer;
 }
 .menulist ul li:hover {
-  box-sizing: border-box;
+  font-size: 18px;
+  padding: 5px;
   border-radius: 5px;
   background-color: rgb(116, 114, 114);
   color: white;
@@ -140,12 +141,11 @@ p {
   font-family: Google Sans;
   font-size: 18px;
   color: #ffffff;
-  cursor: pointer;
 }
 .play-demo {
   gap: 20px;
   display: flex;
- align-items: center;
+  align-items: center;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -153,24 +153,24 @@ p {
   font-size: 17px;
   font-weight: 400;
 }
-.text{
+.text {
   width: 50%;
 }
 #service {
   padding: 150px 0;
 }
-.title{
+.title {
   font-family: Poppins;
-font-size: 18px;
-text-align: center;
-color: #5E6282;
+  font-size: 18px;
+  text-align: center;
+  color: #5e6282;
 }
-.description{
+.description {
   font-family: Volkhov;
   font-size: 50px;
   font-weight: 700;
   text-align: center;
-  color: #14183E;
+  color: #14183e;
 }
 .main-service {
   padding-top: 66px;
@@ -179,131 +179,136 @@ color: #5E6282;
   justify-content: space-between;
 }
 
-.card{
+.card {
   width: 20%;
   height: 310px;
   text-align: center;
   border-radius: 35px 35px 35px 35px;
-} 
-.card .image{
- position: relative;
- width: fit-content;
- margin-left: 100px;
 }
-.card .image .shape{
- z-index: -1;
-position: absolute;
-width: 50px;
-height: 49px;
-background: #f0dcbb;  
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
-.card .image .one{ 
-  
+.card .image {
+  position: relative;
+  width: fit-content;
+  margin-left: 100px;
+}
+.card .image .shape {
+  z-index: -1;
+  position: absolute;
+  width: 50px;
+  height: 49px;
+  background: #f0dcbb;
+}
+.card .image .one {
   top: 30px;
   right: -25px;
-border-radius: 3px 5px 15px 5px;
+  border-radius: 3px 5px 15px 5px;
 }
-.card .image-two{
+.card .image-two {
   width: 137px;
-height: 95px;
-top: -50px;
-left: 80px;
- position: relative;
- width: fit-content;
+  height: 95px;
+  top: -50px;
+  left: 80px;
+  position: relative;
+  width: fit-content;
 }
-.card .card-rec{
+.card .card-rec {
   z-index: -1;
   position: absolute;
   margin-top: 250px;
   left: 300px;
 }
-.card .image-two .shape{
+.card .image-two .shape {
   position: absolute;
   top: 0;
-width: 50px;
-height: 49px;
-background: #f0dcbb;  
+  width: 50px;
+  height: 49px;
+  background: #f0dcbb;
 }
-.card .image-two .two{
- z-index: -1;
- border-radius: 3px 5px 15px 15px;
+.card .image-two .two {
+  z-index: -1;
+  border-radius: 3px 5px 15px 15px;
   right: 50px;
- top: 40px;
+  top: 40px;
 }
-.card h3{
+.card h3 {
   padding-top: 20px;
-  color:  #1E1D4C;
+  color: #1e1d4c;
   font-family: Open Sans;
   font-size: 20px;
 }
-.card .image .three{
+.card .image .three {
   z-index: -1;
   right: -25px;
   top: -5px;
   border-radius: 5px 15px 5px 15px;
 }
-.card .image .four{
+.card .image .four {
   z-index: -1;
   top: 15px;
   right: -20px;
   border-radius: 5px 15px 5px 15px;
 }
-.destination-title{
+.destination-title {
   text-align: center;
 }
-#destination{
+#destination {
   position: relative;
   width: 100%;
 }
-.dest-title{
-color: #5E6282;
-font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
+.dest-title {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
 }
-.dest-description{
-  color: #14183E;
+.dest-description {
+  color: #14183e;
   font-family: Volkhov;
   font-size: 50px;
   font-weight: 700;
   padding-top: 8px;
 }
-.main-destination{
- padding: 60px;
+.main-destination {
+  padding: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.dest-card{
+.dest-card {
   width: 314px;
-height: 450px;
-transition: 0.3s;
-border: solid white;
-box-sizing: border-box;
-border-radius: 15px;
-
+  height: 450px;
+  transition: 0.3s;
+  border: solid white;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
-.dest-card:hover{
-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+.dest-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
-.italy{
+.italy {
   width: 314px;
   height: 327px;
 }
-.info{
+.info {
   padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-family: Poppins;
-font-size: 20px;
-font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
-.days-info{
- margin-top: 0;
- padding-left: 15px;
+.days-info {
+  margin-top: 0;
+  padding-left: 15px;
 }
-.dest-decor{
+.dest-decor {
   top: 0;
   z-index: -1;
   position: absolute;
@@ -311,47 +316,47 @@ font-weight: 600;
   margin-top: 115px;
   transition: 0.2s;
 }
-#book-trip{
- margin-top: 86px;
+#book-trip {
+  margin-top: 86px;
 }
-.content{
+.content {
   display: flex;
   justify-content: space-between;
   gap: 118px;
 }
-.value{
+.value {
   width: 50%;
   padding: 0 50px;
 }
-.subheading{
+.subheading {
   font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
-color: rgba(94, 98, 130, 1);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(94, 98, 130, 1);
 }
-.heading{
+.heading {
   color: rgba(20, 24, 62, 1);
   font-family: Volkhov;
-font-size: 45px;
-font-weight: 700;
-line-height: 60px;
-text-align: left;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
 }
-.values{
+.values {
   margin-top: 30px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 21px;
 }
-.trip-image{
- width: 50%;
- right: 0;
- margin-top: 150px;
+.trip-image {
+  width: 50%;
+  right: 0;
+  margin-top: 150px;
 }
-#logo{
+#logo {
   margin-top: 112px;
 }
-.logo-img{
+.logo-img {
   display: flex;
   align-items: center;
   justify-content: space-between;

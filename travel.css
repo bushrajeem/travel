@@ -75,7 +75,7 @@ select {
   width: 765px;
   height: 764px;
   margin-left: 400px;
-  margin-top: -120;
+  margin-top: -120px;
 }
 .plane-one {
   position: absolute;
@@ -110,7 +110,6 @@ h2 {
 }
 h1 {
   position: relative;
-  font-family: Volkhov;
   margin-top: 10px;
   font-size: 84px;
   font-weight: 700;
@@ -135,10 +134,10 @@ p {
 .find-btn {
   border: none;
   background-color: #f1a501;
-  padding: 20px 25px;
+  padding: 15px 25px;
   height: fit-content;
   border-radius: 10px;
-  font-family: Google Sans;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 18px;
   color: #ffffff;
 }

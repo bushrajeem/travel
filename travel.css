@@ -284,6 +284,7 @@ p {
   border: solid white;
   box-sizing: border-box;
   border-radius: 15px;
+  position: relative;
 }
 .dest-card:hover {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
@@ -308,11 +309,10 @@ p {
   padding-left: 15px;
 }
 .dest-decor {
-  top: 0;
+  top: 6px;
   z-index: -1;
   position: absolute;
-  right: 30px;
-  margin-top: 115px;
+  right: -70px;
   transition: 0.2s;
 }
 #book-trip {

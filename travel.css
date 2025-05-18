@@ -183,6 +183,7 @@ p {
   height: 310px;
   text-align: center;
   border-radius: 35px 35px 35px 35px;
+  position: relative;
 }
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
@@ -218,7 +219,7 @@ p {
   z-index: -1;
   position: absolute;
   margin-top: 250px;
-  left: 300px;
+  left: -40px;
 }
 .card .image-two .shape {
   position: absolute;
